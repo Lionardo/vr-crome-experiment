@@ -1,0 +1,30 @@
+{
+  "name": "cardboard",
+  "version": "1.0.0",
+  "description": "vr chrome experiment",
+  "dependencies": {
+    "gulp": "^3.8.10"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-sass": "^1.3.2",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Lionardo/vr-crome-experiment.git"
+  },
+  "keywords": [
+    "vr",
+    "chrome",
+    "experiemnts"
+  ],
+  "author": "lionardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lionardo/vr-crome-experiment/issues"
+  },
+  "homepage": "https://github.com/Lionardo/vr-crome-experiment"
+}

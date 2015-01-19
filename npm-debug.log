@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'gulp-browser' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json cardboard@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'gulp-browser', null ]
+8 verbose cache add spec="gulp-browser" args=["gulp-browser",null]
+9 verbose parsed spec { raw: 'gulp-browser',
+9 verbose parsed spec   scope: null,
+9 verbose parsed spec   name: 'gulp-browser',
+9 verbose parsed spec   rawSpec: '',
+9 verbose parsed spec   spec: '*',
+9 verbose parsed spec   type: 'range' }
+10 verbose parsed spec { raw: 'gulp-browser',
+10 verbose parsed spec   scope: null,
+10 verbose parsed spec   name: 'gulp-browser',
+10 verbose parsed spec   rawSpec: '',
+10 verbose parsed spec   spec: '*',
+10 verbose parsed spec   type: 'range' }
+11 verbose addNamed [ 'gulp-browser', '*' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile ba509a4d-gulp-browser gulp-browser@*
+14 verbose lock gulp-browser@* /Users/divio/.npm/ba509a4d-gulp-browser.lock
+15 silly addNameRange { name: 'gulp-browser', range: '*', hasData: false }
+16 verbose mapToRegistry name gulp-browser
+17 verbose mapToRegistry uri https://registry.npmjs.org/gulp-browser
+18 verbose request on initialization, where is /gulp-browser
+19 verbose request after pass 1, where is /gulp-browser
+20 verbose request url raw /gulp-browser
+21 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-browser' ]
+22 verbose request after pass 2, where is https://registry.npmjs.org/gulp-browser
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 02:14:05
+25 verbose request id c8a675aa9a0c82ea
+26 http request GET https://registry.npmjs.org/gulp-browser
+27 http 404 https://registry.npmjs.org/gulp-browser
+28 verbose headers { date: 'Mon, 19 Jan 2015 01:14:05 GMT',
+28 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'cache-control': 'max-age=0',
+28 verbose headers   'content-length': '52',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   age: '0',
+28 verbose headers   'x-served-by': 'cache-fra1237-FRA',
+28 verbose headers   'x-cache': 'MISS',
+28 verbose headers   'x-cache-hits': '0',
+28 verbose headers   'x-timer': 'S1421630045.103501,VS0,VE424',
+28 verbose headers   'keep-alive': 'timeout=10, max=50',
+28 verbose headers   connection: 'Keep-Alive' }
+29 silly registry.get cb [ 404,
+29 silly registry.get   { date: 'Mon, 19 Jan 2015 01:14:05 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '52',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     'x-served-by': 'cache-fra1237-FRA',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1421630045.103501,VS0,VE424',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly lockFile ba509a4d-gulp-browser gulp-browser@*
+31 silly lockFile ba509a4d-gulp-browser gulp-browser@*
+32 verbose stack Error: 404 Not Found: gulp-browser
+32 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+32 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+32 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+32 verbose stack     at Request.emit (events.js:98:17)
+32 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+32 verbose stack     at Request.emit (events.js:117:20)
+32 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+32 verbose stack     at IncomingMessage.emit (events.js:117:20)
+32 verbose stack     at _stream_readable.js:943:16
+32 verbose stack     at process._tickCallback (node.js:419:13)
+33 verbose statusCode 404
+34 verbose pkgid gulp-browser
+35 verbose cwd /Users/divio/Sites/cardboard
+36 error Darwin 14.0.0
+37 error argv "node" "/usr/local/bin/npm" "install" "gulp-browser"
+38 error node v0.10.32
+39 error npm  v2.0.2
+40 error code E404
+41 error 404 Not Found: gulp-browser
+41 error 404
+41 error 404 'gulp-browser' is not in the npm registry.
+41 error 404 You should bug the author to publish it (or use the name yourself!)
+41 error 404 It was specified as a dependency of 'cardboard'
+41 error 404
+41 error 404 Note that you can also install from a
+41 error 404 tarball, folder, http url, or git url.
+42 verbose exit [ 1, true ]
