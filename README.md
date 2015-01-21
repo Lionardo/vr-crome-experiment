@@ -19,7 +19,7 @@ For css preprocessor it uses sass compass and gulp as task manager.
 5- Enjoy experimenting 
 
 p.s.
-links that might be handy for you to get into this stuff.
+check this link first if you never worked with a 3d library before.
 >http://threejs.org/
 
 
